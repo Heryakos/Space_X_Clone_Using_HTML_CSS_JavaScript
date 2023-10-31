@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0 ;
+}
+.title1{
+    background-color: black;
+    color: white;
+}
+.FALCON9{
+    background-color:black ;
+    height:100vh;
+    width: 100%;
+    background-image:url(../image/rideshare.webp);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    color:white;
+}
+
+.image1{
+    background-image: url(../image/mission_humans.webp);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    min-height:100vh;
+    width:100%;
+}
+.rocket_image{
+    background-color:black;
+    height:100vh;
+    width: 100%;
+    background-image:url(../image/F9_AUTONOMOUS_DRONESHIP_DESKTOP.jpg);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    color:white;
+}
+.FALCON9 h3{
+    font-family:D-DIN-Regular;
+    font: 20px/32px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    color:#fff;
+    font-size:normal;
+    position: absolute;
+    text-align: center;
+    bottom:390px;
+    text-transform:uppercase;
+    right:250px;
+    background: transparent;
+    letter-spacing: -1px;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+.Box1{
+    position: absolute;
+    bottom: 35%;
+    text-align: left;
+    left: 8%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Box1 h4{
+    font:16px/26px D-DIN-Medium,Arial,Verdana,sans-serif;
+    line-height: 1.6;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+.Box1 h1{
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode:both ;
+}
+.stats{
+    font-family:D-DIN-Regular;
+    font: 380px/140px D-DIN-Light,Arial,Verdana,sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.stats div span{
+    font-size: 140px;
+}
+.stats div h4{
+    font-family:D-DIN-Regular;
+    font: 22px/32px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+} 
+
+.falconvideo{
+    background-color: black;
+}
+.falconvideop h1{
+    font: 46px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    right: 100%;
+    color: white;
+}
+.falconvideop h4{
+    color: white;
+}
+.FALCON9_image {
+    color: #fff;
+	height: 100vh;
+	position: relative;
+    background:black;
+    overflow: hidden;
+}
+
+.FALCON9_image .backparg__content {
+	position: absolute;
+	bottom: 40%;
+	left: 7rem;
+	width: 90%;
+	max-width: 100%;
+	overflow: hidden;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: opacity 1s, transform 1s;
+}   
+.FALCON9_image .backparg__content .backparg__content__header {
+	font-size: 2rem;
+	text-align: left;
+	margin: 0 0 1rem auto;
+	font-weight: 600;
+}
+
+
+.FALCON9_image .backparg__content .backparg__content__subheader {
+    font-family:D-DIN-Regular;
+    font: 18px/40px D-DIN-Regular,Arial,Verdana,sans-serif;
+  
+}
+
+
+.FALCON9_image.on__screen .backparg__content {
+	opacity: 1;
+	transform: translateY(0);
+}
+.slide-1{
+    background-image:url(../image/mission-slider-01.webp);
+}
+.slide-2 {
+    background: url('../image/mission-slider-08.webp');
+}
+.slide-3 {
+    background: url('../image/mission-slider-07.webp');
+}
+.slide-4 {
+    background: url('../image/mission-slider-06.webp');
+}
+
+.slide-5 {
+    background: url('../image/mission-slider-05.webp');
+}
+
+.slide-6 {
+    background: url('../image/mission-slider-04.webp');
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.arrow {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transform:  500ms;
+}
+.arrow img {
+    width: 50px;
+}
+.arrow:hover {
+    background: rgba(0, 0, 0, .4);
+}
+.l {
+    left: 0;
+}
+.r {
+   
+    right: 0;
+}
+
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(140px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0 ;
+}
+.title1{
+    background-color: black;
+    color: white;
+}
+.FALCON9{
+    background-color:black ;
+    height:100vh;
+    width: 100%;
+    background-image:url(../image/humanspaceship.webp);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    color:white;
+}
+
+.rocket_image{
+    background-color:black ;
+    height:100vh;
+    width: 100%;
+    background-image:url(../java/Merlin.webp);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    color:white;
+}
+
+.FALCON9 h1{
+    font-family:D-DIN-Regular;
+    font: 100px/85px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight:bold;
+    color:#fff;
+    position: absolute;
+    text-align: center;
+    bottom:430px;
+    text-transform:uppercase;
+    right:200px;
+    background: transparent;
+    letter-spacing: -8px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode:both ;  
+}
+.FALCON9 h3{
+    font-family:D-DIN-Regular;
+    font: 20px/32px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    color:#fff;
+    font-size:normal;
+    position: absolute;
+    text-align: center;
+    bottom:390px;
+    text-transform:uppercase;
+    right:490px;
+    background: transparent;
+    letter-spacing: -1px;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+.stats{
+    font-family:D-DIN-Regular;
+    font: 380px/140px D-DIN-Light,Arial,Verdana,sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.stats div span{
+    font-size: 140px;
+}
+.stats div h4{
+    font-family:D-DIN-Regular;
+    font: 22px/32px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+} 
+
+.falconvideo{
+    background-color: black;
+}
+.watchpage video{
+    background-position:center;
+    background-size:cover;
+    background-size: 100%;
+}
+
+
+
+.FALCON9_image {
+    color: #fff;
+	height: 100vh;
+	position: relative;
+    background:black;
+    overflow: hidden;
+}
+
+.FALCON9_image .backparg__content {
+	position: absolute;
+	bottom: 40%;
+	left: 7rem;
+	width: 90%;
+	max-width: 100%;
+	overflow: hidden;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: opacity 1s, transform 1s;
+}   
+.FALCON9_image .backparg__content .backparg__content__header {
+	font-size: 2rem;
+	text-align: left;
+	margin: 0 0 1rem auto;
+	font-weight: 600;
+}
+
+
+.FALCON9_image .backparg__content .backparg__content__subheader {
+    font-family:D-DIN-Regular;
+    font: 18px/40px D-DIN-Regular,Arial,Verdana,sans-serif;
+  
+}
+
+
+.FALCON9_image.on__screen .backparg__content {
+	opacity: 1;
+	transform: translateY(0);
+}
+.slide-1{
+    background-image:url(../java/WebsiteF9Fairings_Lines_Desktop.webp);
+}
+.slide-2 {
+    background: url('../java/WebsiteF9Fairings_Render_Desktop.webp');
+}
+.slide-3 {
+    background: url('../java/WebsiteF9S1_Render_Desktop.webp');
+}
+.slide-4 {
+    background: url('../java/WebsiteF9S2_Render_Desktop.webp');
+}
+
+.slide-5 {
+    background: url('../java/WebsiteF9Interstage_Render_Desktop.webp');
+}
+
+.slide-6 {
+    background: url('../java/WebsiteF9SoloFairings_Render_Desktop.webp');
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transform:  500ms;
+}
+.arrow img {
+    width: 50px;
+}
+.arrow:hover {
+    background: rgba(0, 0, 0, .4);
+}
+.l {
+    left: 0;
+}
+.r {
+   
+    right: 0;
+}
+
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(140px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
